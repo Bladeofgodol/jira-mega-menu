@@ -52,7 +52,7 @@ export default function Megamenu() {
 
     return (
         <nav className=" flex-warp items-center bg-neutral-50 lg:py-4 text-neutral-600 shadow-lg lg:flex justify-center w-30 align-middle static">
-            <div className="justify-center lg:container w-full flex  lg:h-10 lg:align-middle ">
+            <div className="justify-between lg:container w-full flex  lg:h-10 lg:align-middle ">
                 <div className=" flex flex-wrap w-full md:w-auto align-middle justify-between lg:justify-start">
                     <div className=" flex justify-self-start w-40 md:w-48 mx-4 relative align-middle ">
                         <a
