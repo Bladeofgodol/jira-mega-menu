@@ -174,7 +174,7 @@ export default function Solution() {
                 <div>
                     <div className="mb-1">
                         <h1 className="text-[11px] font-semibold text-[#54637c]">
-                            WHAT'S NEW
+                            WHAT&apos;S NEW
                         </h1>
                     </div>
                     <div className="p-1 grid grid-cols-1 mb-2">

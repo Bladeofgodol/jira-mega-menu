@@ -87,7 +87,7 @@ export default function Resource() {
                 <div>
                     <div className="mb-1">
                         <h1 className="text-[11px] font-semibold text-[#54637c]">
-                            WHAT'S NEW
+                            WHAT&apos;S NEW
                         </h1>
                     </div>
                     <div className="p-1 grid grid-cols-1 mb-2">
@@ -112,7 +112,7 @@ export default function Resource() {
                         </div>
                         <div className="inline-block align-middle p-auto text-center h-fit my-3">
                             <h2 className="w-fit whitespace-nowrap m-0 text-sm font-semibold text-[#0a1e42] text-center h-fit group-hover:text-[#2a6ed4] ">
-                                Atlassian Team'32
+                                Atlassian Team&apos;32
                             </h2>
                         </div>
 
