@@ -51,7 +51,7 @@ export default function Megamenu() {
     
 
     return (
-        <nav className=" flex-warp items-center bg-neutral-50 lg:py-4 text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-300 dark:shadow-black/5 lg:flex justify-center align-middle static">
+        <nav className=" flex-warp items-center bg-neutral-50 lg:py-4 text-neutral-600 shadow-lg dark:bg-neutral-700 lg:flex justify-center align-middle static">
             <div className="justify-center lg:container w-full flex  lg:h-10 lg:align-middle ">
                 <div className=" flex flex-wrap w-full md:w-auto align-middle justify-between lg:justify-start">
                     <div className=" flex justify-self-start w-40 md:w-48 mx-4 relative align-middle ">
@@ -71,7 +71,7 @@ export default function Megamenu() {
                     </div>
 
                     <button
-                        className="border-0 bg-transparent py-3 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden mx-4"
+                        className="border-0 bg-transparent py-3 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 lg:hidden mx-4"
                         type="button"
                         data-te-collapse-init
                         data-te-target="#navbarSupportedContentX"
@@ -110,12 +110,12 @@ export default function Megamenu() {
                             {menus.map((menu) => (
                                 <div key={menu.id}>
 <li
-                                    className=" items-center align-center block py-2 lg:py-0 px-5  rounded-sm border-b border-zinc-400 lg:border-none transition-transform duration-150 ease-in-out hover:text-neutral-700 hover:bg-cyan-600/50 lg:hover:bg-gray-300/75 focus:text-neutral-700 dark:hover:text-white lg:p-0 "
+                                    className=" items-center align-center block py-2 lg:py-0 px-5  rounded-sm border-b border-zinc-400 lg:border-none transition-transform duration-150 ease-in-out hover:text-neutral-700 hover:bg-cyan-600/50 lg:hover:bg-gray-300/75 focus:text-neutral-700 lg:p-0 "
                                     data-te-nav-item-ref
                                     data-te-dropdown-ref
                                 >
                                     <a
-                                        className=" flex items-center whitespace-nowrap h-fit rounded-sm py-1 dark:focus:text-white lg:px-0 text-slate-600 font-medium lg:p-0"
+                                        className=" flex items-center whitespace-nowrap h-fit rounded-sm py-1 lg:px-0 text-slate-600 font-medium lg:p-0"
                                         data-te-ripple-init
                                         data-te-ripple-color="light"
                                         type="button"
@@ -135,7 +135,7 @@ export default function Megamenu() {
                                     </a>
                                     
                                     <div
-                                        className="hidden w-full bg-zinc-400/50 bg-clip-content pt-[1rem] transition-transform text-neutral-600  dark:text-neutral-200 [&[data-te-dropdown-show]]:block h-screen"
+                                        className="hidden w-full bg-zinc-400/50 bg-clip-content pt-[1rem] transition-transform text-neutral-600  [&[data-te-dropdown-show]]:block h-screen"
                                         aria-labelledby="dropdownMenuButtonX"
                                         data-te-dropdown-menu-ref
                                     >
@@ -175,12 +175,12 @@ export default function Megamenu() {
                             {menus.map((menu) => (
                                 <div key={menu.id}>
                                     <li
-                                    className=" items-center align-center block py-2 lg:py-0 px-5  rounded-sm border-b border-zinc-400 lg:border-none transition-transform duration-150 ease-in-out hover:text-neutral-700 hover:bg-cyan-600/50 lg:hover:bg-gray-300/75 focus:text-neutral-700 dark:hover:text-white lg:p-0 "
+                                    className=" items-center align-center block py-2 lg:py-0 px-5  rounded-sm border-b border-zinc-400 lg:border-none transition-transform duration-150 ease-in-out hover:text-neutral-700 hover:bg-cyan-600/50 lg:hover:bg-gray-300/75 focus:text-neutral-700 lg:p-0 "
                                     data-te-nav-item-ref
                                     data-te-dropdown-ref
                                 >
                                     <a
-                                        className=" flex items-center whitespace-nowrap h-fit rounded-sm py-1 dark:focus:text-white lg:px-0 text-slate-600 font-medium lg:p-0"
+                                        className=" flex items-center whitespace-nowrap h-fit rounded-sm py-1 lg:px-0 text-slate-600 font-medium lg:p-0"
                                         data-te-ripple-init
                                         data-te-ripple-color="light"
                                         type="button"
@@ -200,7 +200,7 @@ export default function Megamenu() {
                                     </a>
                                     
                                     <div
-                                        className="hidden w-full bg-zinc-400/50 bg-clip-content pt-[1rem] transition-transform text-neutral-600  dark:text-neutral-200 [&[data-te-dropdown-show]]:block h-screen"
+                                        className="hidden w-full bg-zinc-400/50 bg-clip-content pt-[1rem] transition-transform text-neutral-600  [&[data-te-dropdown-show]]:block h-screen"
                                         aria-labelledby="dropdownMenuButtonX"
                                         data-te-dropdown-menu-ref
                                     >
