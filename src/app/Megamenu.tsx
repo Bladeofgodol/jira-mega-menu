@@ -51,7 +51,7 @@ export default function Megamenu() {
     
 
     return (
-        <nav className=" flex-warp items-center bg-neutral-50 lg:py-4 text-neutral-600 shadow-lg dark:bg-neutral-700 lg:flex justify-center align-middle static">
+        <nav className=" flex-warp items-center bg-neutral-50 lg:py-4 text-neutral-600 shadow-lg lg:flex justify-center w-30 align-middle static">
             <div className="justify-center lg:container w-full flex  lg:h-10 lg:align-middle ">
                 <div className=" flex flex-wrap w-full md:w-auto align-middle justify-between lg:justify-start">
                     <div className=" flex justify-self-start w-40 md:w-48 mx-4 relative align-middle ">
@@ -89,7 +89,7 @@ export default function Megamenu() {
                         data-te-collapse-item
                     >
                         <ul
-                            className="mr-auto   flex-wrap flex-row flex-col lg:flex-row border-t lg:border-none w-full justify-between hidden lg:flex"
+                            className="mr-auto flex-wrap flex-row flex-col lg:flex-row border-t lg:border-none w-full justify-between hidden lg:flex"
                             data-te-navbar-nav-ref
                         >
                             <li className="lg:hidden">
