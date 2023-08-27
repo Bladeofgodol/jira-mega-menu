@@ -29,4 +29,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-[deployed on vercel] (https://atlassia-mega-menu-gqj8v84xd-bladeofgodol.vercel.app)
+[deployed on vercel] (https://attlasianmegamenuclone.vercel.app)
